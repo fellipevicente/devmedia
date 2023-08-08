@@ -3,29 +3,84 @@ html {
 }
 
 body {
-    background-color: #ffa784;
-    margin: 0px;
+    background-color: #f0f0f0;
+    margin: 0px auto;
+    font-family: "Roboto";
 }
 
-#content {
-    padding: 50px;
-    width: 75%;
+#header, #produtos, #sobre, #contato {
+    width: 60%;
     margin: 0px auto;
-    background-color: white;
+    background-color: #fff;
+    padding: 40px;
 }
 
 #header {
     text-align: center;
+    margin: 0px auto;
 }
 
-#header img {
-    width: 300px;
+#header a {
+    margin: 20px 5px 0px 5px;
+    padding: 5px 50px;
+    background-color: gray;
+    color: white;
+    text-decoration: none;
+}
+
+#header a:hover {
+    background-color: #505050;
 }
 
 #sobre img {
     width: 100%;
+    margin: 0px auto;
+}
+
+#sobre {
+    text-align: center;
+    border-top: 1px dotted orange;
 }
 
 #produtos img {
     max-width: 100%;
+    margin: 10px auto;
+
+}
+
+#produtos {
+    background-color: orange;
+    margin: 0px auto;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    margin: 0px;
+    padding: 5px;
+}
+
+h2 {
+    margin: 0px auto 20px auto;
+    padding: 5px;
+}
+
+h3 {
+    margin: 0px;
+    padding: 5px;
+}
+
+h4 {
+    margin: 0px;
+    padding: 5px;
+}
+
+p {
+    margin: 0px;
+    padding: 5px;
+    line-height: 30px;
+}
+
+p span {
+    font-weight: bold;
 }
