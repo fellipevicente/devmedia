@@ -1,0 +1,31 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #ffa784;
+    margin: 0px;
+}
+
+#content {
+    padding: 50px;
+    width: 75%;
+    margin: 0px auto;
+    background-color: white;
+}
+
+#header {
+    text-align: center;
+}
+
+#header img {
+    width: 300px;
+}
+
+#sobre img {
+    width: 100%;
+}
+
+#produtos img {
+    max-width: 100%;
+}
