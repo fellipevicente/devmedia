@@ -1,0 +1,120 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    font-family: "Roboto";
+}
+
+#header {
+    background-color: #afddfb;
+}
+
+#header img {
+    width: 200px;
+}
+
+#header p {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+#header p a {
+    margin: 0px 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #1d1d1d;
+}
+
+#header p a:hover {
+    border-bottom: 1px solid #1d1d1d;
+}
+
+#header, #banner, #sobre, #servicos, #corretores, #contato {
+    padding-bottom: 25px;
+    text-align: center;
+    width: 70%;
+    margin: 0px auto;
+}
+
+#banner img {
+    width: 100%;
+}
+
+p {
+    margin: 10px auto;
+}
+
+#sobre img, #corretores img {
+    width: 50%;
+}
+
+#sobre h2, #corretores h3 {
+    color: #1c81c0;
+}
+
+#sobre p {
+    text-align: justify;
+}
+
+#sobre span, #corretores span {
+    color: #1d80c1;
+}
+
+#servicos, #contato {
+    color: white;
+    background-color: #1d80c1;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    font-size: 22px;
+    line-height: 42px;
+}
+
+#servicos p, #contato p {
+    width: 70%;
+}
+
+#servicos ul {
+    margin: 40px auto;
+    width: 135px;
+    color: white;
+    text-align: left;
+}
+
+#servicos span {
+    color: yellow;
+}
+
+#corretores p {
+    font-size: 18px;
+    line-height: 28px;
+    width: 75%;
+}
+
+span {
+    font-weight: bold;
+}
+
+iframe {
+    width:100%;
+    height: 250px;
+}
+
+#contato ul {
+    margin: 40px auto;
+    width: 300px;
+    color: white;
+    text-align: left;
+}
+
+#contato a {
+    border-left: 5px solid white;
+    padding-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+#contato span {
+    color: yellow;
+}
