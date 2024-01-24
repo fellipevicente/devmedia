@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    font-family: Roboto;
+}
+
+#header {
+    background-color: #f0f0f0;
+    background-size: cover;
+}
+
+#logo {
+    padding-top: 70px;
+    margin: 0 0 20px 50px;
+    color: #3c184e;
+}
+
+#logo p {
+    font-size: 16px;
+    letter-spacing: 0.2px
+}
+
+#logo span {
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+#logo img {
+    width: 50px;
+    margin-right: 5px;
+}
